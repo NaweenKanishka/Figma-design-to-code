@@ -96,7 +96,8 @@ header {
     /* Bring it to front */
 
 }
-.home{
+
+.home {
     color: rgb(255, 153, 0);
 }
 
@@ -116,32 +117,177 @@ header {
     height: 100%;
     object-fit: cover;
 }
-#hero-button1, #hero-button2{
-padding: 6px 18px;
-margin-top: 20px;
-border: none;
-width: 216px;
-height: 59px;
-border-radius: 8px;
-font-size: 24px;
-font-family: "Outfit", sans-serif;
-font-style: semi-bold;
-font-weight: 600;
+
+#hero-button1,
+#hero-button2 {
+    padding: 6px 18px;
+    margin-top: 20px;
+    border: none;
+    width: 216px;
+    height: 59px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+    font-style: semi-bold;
+    font-weight: 600;
 }
-#hero-button1{
+
+#hero-button1 {
     background-color: rgb(255, 153, 0);
     color: white;
 }
-#hero-button2{
+
+#hero-button2 {
     border: 3px solid rgb(255, 153, 0);
 }
-#my-tools{
+
+#my-tools {
     margin-top: 100px;
     font-family: "Outfit", sans-serif;
 }
-#tools ul{
+
+#tools ul {
     margin-top: 6px;
     display: flex;
     gap: 40px;
     list-style: none;
+}
+
+/*services section*/
+#my-services-contents {
+    max-width: 1440px;
+    height: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 50px;
+    padding: 20px;
+}
+#services-cont{
+    width: 50%;
+}
+
+#services-image {
+    position: relative;
+    /* Add position to control z-index if needed */
+    z-index: 1;
+    width: 50%;
+}
+
+#services-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#services-text button {
+    height: 59px;
+    width: 216px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+    font-style: semi-bold;
+    font-weight: 600;
+    padding: 6px 18px;
+    margin-bottom: 20px;
+}
+#services-text h1{
+    font-size: 64px;
+    font-family: "Outfit", sans-serif;
+    font-style: regular;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#services-text p{
+    margin-bottom: 20px;
+}
+#services-text span{
+    color: rgb(255, 153, 0);
+}
+#services-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+#services-box1{
+    width: 295px;
+    height: 178px;
+    display: flex;
+    justify-content: center;
+    align-items: cenetr;
+    border: 3px solid rgb(255, 153, 0);
+    border-radius: 8px;
+    overflow: hidden;
+}
+#services-box1 h1{
+    margin: auto;
+    font-size: 40px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 750;
+}
+#services-box1 h1 span{
+    color: rgb(255, 153, 0);
+}
+
+/*reach section*/
+#reach{
+    background-color: rgb(238, 238, 238);
+}
+#reach-container{
+    max-width: 1440px;
+    height: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 50px;
+    padding: 20px;
+}
+#reach-text{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#reach-image{
+    position: relative;
+    /* Add position to control z-index if needed */
+    z-index: 1;
+    width: 50%;
+}
+#reach-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#reach-text button {
+    height: 59px;
+    width: 216px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 153, 0);
+    color: white;
+    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+    font-style: semi-bold;
+    font-weight: 600;
+    padding: 6px 18px;
+    margin-bottom: 20px;
+}
+#reach-text h1{
+    font-size: 64px;
+    font-family: "Outfit", sans-serif;
+    font-style: regular;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#reach-text h1 span{
+    color: rgb(255, 153, 0);
+    font-size: 128px;
 }
