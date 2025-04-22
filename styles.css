@@ -39,8 +39,8 @@ header {
 
 #header-contents ul li a {
     text-decoration: none;
-    font-family: "Langar", system-ui;
-    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+    font-weight: 545;
     font-style: normal;
 }
 
@@ -145,12 +145,35 @@ header {
     margin-top: 100px;
     font-family: "Outfit", sans-serif;
 }
+#my-tools h2{
+    font-weight: 700;
+    color: rgb(255, 153, 0);
+}
 
 #tools ul {
     margin-top: 6px;
     display: flex;
-    gap: 40px;
+    flex-wrap: wrap;
+    gap: 5px;
     list-style: none;
+}
+#tools ul li{
+    background-color: rgb(5, 139, 0);
+    padding: 20px;
+    border: none;
+    border-radius: 9px;
+    transition: 0.5s;
+}
+#tools ul a{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+#tools ul li:hover{
+    background-color: rgb(3, 95, 0);
 }
 
 /*services section*/
@@ -367,4 +390,21 @@ header {
 .myname-name span{
     color: rgb(255, 153, 0);
     font-size: 32px;
+}
+/*footer section*/
+footer{
+    background-color: rgb(255, 153, 0);
+}
+#footer-container{
+    max-width: 1440px;
+    height: 49px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#footer-container p{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-style: regular;
 }
