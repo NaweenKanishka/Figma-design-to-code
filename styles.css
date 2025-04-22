@@ -291,3 +291,80 @@ header {
     color: rgb(255, 153, 0);
     font-size: 128px;
 }
+
+/*testimonial section*/
+#testimonial-container{
+    max-width: 1440px;
+    height: 1024px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    overflow: hidden;
+    gap: 50px;
+    padding: 20px;
+    font-family: "Outfit", sans-serif;
+    font-style: semi-bold;
+    font-weight: 600;
+}
+#testimonial-container h1{
+    font-size: 64px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.name{
+    margin-top: 60px;
+    color: rgb(255, 153, 0);
+}
+#testimonial-container button{
+    width: 216px;
+    height: 59px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 153, 0);
+    font-size: 24px;
+    color: white;
+}
+#testimonial-boxes{
+    width: 610px;
+    height: 421px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(255, 153, 0);
+    border-radius: 33px;
+    padding: 0 70px;
+}
+
+/*Contact section*/
+#contacts{
+    background-color: rgb(238, 238, 238);
+}
+#contacts-container{
+    margin: auto;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 50px;
+    padding: 40px 0;
+    font-family: "Outfit", sans-serif;
+}
+.myname2{
+    margin: 40px 0;
+}
+.myname-name{
+    font-size: 32px;
+    font-family: "Outfit", sans-serif;
+    font-style: regular;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.myname-name span{
+    color: rgb(255, 153, 0);
+    font-size: 32px;
+}
