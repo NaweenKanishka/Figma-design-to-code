@@ -592,5 +592,51 @@ footer {
         flex-wrap: wrap;
         gap: 5px;
     }
+
+    /*reach*/
+    #reach-container {
+        width: auto;
+        height: auto;
+        margin: auto;
+        gap: 0px;
+    }
+    
+    #reach-text {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #reach-image {
+        display: none;
+    }
+    
+    #reach-text button {
+        height: auto;
+        width: auto;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(255, 153, 0);
+        color: white;
+        font-size: 12px;
+        font-family: "Outfit", sans-serif;
+        font-style: semi-bold;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+    
+    #reach-text h1 {
+        font-size: 30px;
+        font-family: "Outfit", sans-serif;
+        font-style: regular;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    
+    #reach-text h1 span {
+        color: rgb(255, 153, 0);
+        font-size: 50px;
+    }
     
 }
