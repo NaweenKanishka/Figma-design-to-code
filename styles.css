@@ -82,6 +82,7 @@ header {
     font-weight: 400;
     font-style: normal;
     overflow: hidden;
+    padding: 20px;
 }
 
 #hero-text h1 {
@@ -145,7 +146,8 @@ header {
     margin-top: 100px;
     font-family: "Outfit", sans-serif;
 }
-#my-tools h2{
+
+#my-tools h2 {
     font-weight: 700;
     color: rgb(255, 153, 0);
 }
@@ -157,14 +159,16 @@ header {
     gap: 5px;
     list-style: none;
 }
-#tools ul li{
+
+#tools ul li {
     background-color: rgb(5, 139, 0);
     padding: 20px;
     border: none;
     border-radius: 9px;
     transition: 0.5s;
 }
-#tools ul a{
+
+#tools ul a {
     color: white;
     font-family: "Outfit", sans-serif;
     text-decoration: none;
@@ -172,7 +176,8 @@ header {
     font-weight: 700;
     margin: 10px 0;
 }
-#tools ul li:hover{
+
+#tools ul li:hover {
     background-color: rgb(3, 95, 0);
 }
 
@@ -188,7 +193,8 @@ header {
     gap: 50px;
     padding: 20px;
 }
-#services-cont{
+
+#services-cont {
     width: 50%;
 }
 
@@ -219,25 +225,30 @@ header {
     padding: 6px 18px;
     margin-bottom: 20px;
 }
-#services-text h1{
+
+#services-text h1 {
     font-size: 64px;
     font-family: "Outfit", sans-serif;
     font-style: regular;
     font-weight: 700;
     margin-bottom: 20px;
 }
-#services-text p{
+
+#services-text p {
     margin-bottom: 20px;
 }
-#services-text span{
+
+#services-text span {
     color: rgb(255, 153, 0);
 }
-#services-boxes{
+
+#services-boxes {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
 }
-#services-box1{
+
+#services-box1 {
     width: 295px;
     height: 178px;
     display: flex;
@@ -247,21 +258,24 @@ header {
     border-radius: 8px;
     overflow: hidden;
 }
-#services-box1 h1{
+
+#services-box1 h1 {
     margin: auto;
     font-size: 40px;
     font-family: "Outfit", sans-serif;
     font-weight: 750;
 }
-#services-box1 h1 span{
+
+#services-box1 h1 span {
     color: rgb(255, 153, 0);
 }
 
 /*reach section*/
-#reach{
+#reach {
     background-color: rgb(238, 238, 238);
 }
-#reach-container{
+
+#reach-container {
     max-width: 1440px;
     height: 1024px;
     margin: auto;
@@ -272,23 +286,27 @@ header {
     gap: 50px;
     padding: 20px;
 }
-#reach-text{
+
+#reach-text {
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-#reach-image{
+
+#reach-image {
     position: relative;
     /* Add position to control z-index if needed */
     z-index: 1;
     width: 50%;
 }
+
 #reach-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
+
 #reach-text button {
     height: 59px;
     width: 216px;
@@ -303,20 +321,22 @@ header {
     padding: 6px 18px;
     margin-bottom: 20px;
 }
-#reach-text h1{
+
+#reach-text h1 {
     font-size: 64px;
     font-family: "Outfit", sans-serif;
     font-style: regular;
     font-weight: 700;
     margin-bottom: 20px;
 }
-#reach-text h1 span{
+
+#reach-text h1 span {
     color: rgb(255, 153, 0);
     font-size: 128px;
 }
 
 /*testimonial section*/
-#testimonial-container{
+#testimonial-container {
     max-width: 1440px;
     height: 1024px;
     margin: auto;
@@ -332,16 +352,19 @@ header {
     font-style: semi-bold;
     font-weight: 600;
 }
-#testimonial-container h1{
+
+#testimonial-container h1 {
     font-size: 64px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
-.name{
+
+.name {
     margin-top: 60px;
     color: rgb(255, 153, 0);
 }
-#testimonial-container button{
+
+#testimonial-container button {
     width: 216px;
     height: 59px;
     border: none;
@@ -350,7 +373,8 @@ header {
     font-size: 24px;
     color: white;
 }
-#testimonial-boxes{
+
+#testimonial-boxes {
     width: 610px;
     height: 421px;
     display: flex;
@@ -363,10 +387,11 @@ header {
 }
 
 /*Contact section*/
-#contacts{
+#contacts {
     background-color: rgb(238, 238, 238);
 }
-#contacts-container{
+
+#contacts-container {
     margin: auto;
     max-width: 1440px;
     margin: auto;
@@ -377,25 +402,30 @@ header {
     padding: 40px 0;
     font-family: "Outfit", sans-serif;
 }
-.myname2{
+
+.myname2 {
     margin: 40px 0;
 }
-.myname-name{
+
+.myname-name {
     font-size: 32px;
     font-family: "Outfit", sans-serif;
     font-style: regular;
     font-weight: 700;
     margin-bottom: 20px;
 }
-.myname-name span{
+
+.myname-name span {
     color: rgb(255, 153, 0);
     font-size: 32px;
 }
+
 /*footer section*/
-footer{
+footer {
     background-color: rgb(255, 153, 0);
 }
-#footer-container{
+
+#footer-container {
     max-width: 1440px;
     height: 49px;
     margin: auto;
@@ -403,9 +433,164 @@ footer{
     justify-content: center;
     align-items: center;
 }
-#footer-container p{
+
+#footer-container p {
     color: white;
     font-family: "Outfit", sans-serif;
     font-style: regular;
 }
 
+
+/*Responsive*/
+/* Small phones */
+@media (max-width: 321px) {
+    #hero-image {
+        display: none;
+    }
+
+    #hero-contents {
+        height: auto;
+        width: auto;
+        margin-top: 40px;
+    }
+    #hero-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 2;
+        /* Bring it to front */
+    
+    }
+
+    #hero-text h1 {
+        font-size: 30px;
+    }
+
+    #hero-button1,
+    #hero-button2 {
+        padding: 6px 18px;
+        margin-top: 20px;
+        border: none;
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+        font-size: 12px;
+        font-family: "Outfit", sans-serif;
+        font-style: semi-bold;
+        font-weight: 600;
+    }
+    #hero-button2 {
+        border: 1px solid rgb(255, 153, 0);
+    }
+    #my-tools h2 {
+        font-weight: 700;
+        color: rgb(255, 153, 0);
+        font-size: 12px;
+    }
+    
+    #tools ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        list-style: none;
+    }
+    
+    #tools ul li {
+        background-color: rgb(5, 139, 0);
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        transition: 0.5s;
+    }
+    
+    #tools ul a {
+        color: white;
+        font-family: "Outfit", sans-serif;
+        text-decoration: none;
+        font-size: 7px;
+        font-weight: 700;
+        margin: 1px;
+    }
+    
+    #tools ul li:hover {
+        background-color: rgb(3, 95, 0);
+    }
+    #my-tools {
+        margin-top: 30px;
+        font-family: "Outfit", sans-serif;
+    }
+
+    /*services*/
+    #services-image {
+        position: relative;
+        /* Add position to control z-index if needed */
+        z-index: 1;
+        width: auto;
+    }
+    
+    #services-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    #services-text button {
+        height: auto;
+        width: auto;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(255, 153, 0);
+        color: white;
+        font-size: 12px;
+        font-family: "Outfit", sans-serif;
+        font-style: semi-bold;
+        font-weight: 600;
+        padding: 6px 18px;
+        margin-bottom: 20px;
+    }
+    
+    #services-text h1 {
+        font-size: 30px;
+        font-family: "Outfit", sans-serif;
+        font-style: regular;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    #services-cont {
+        width: auto;
+    }
+    #my-services-contents {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        gap: 00px;
+        padding: 20px;
+    }
+    #services-box1 {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: cenetr;
+        border: 2px solid rgb(255, 153, 0);
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 5px;
+    }
+    
+    #services-box1 h1 {
+        margin: auto;
+        font-size: 20px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 750;
+    }
+    #services-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+}
