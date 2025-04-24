@@ -29,9 +29,9 @@ header {
 
 #logo-name nav ul {
     display: flex;
-  list-style: none;
-  align-items: center;
-  gap: 0.5rem;
+    list-style: none;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 #logo-name nav ul a {
@@ -55,13 +55,14 @@ header {
 
 #nav-names-links ul {
     display: flex;
-  list-style: none;
-  gap: 1.5rem;
-  align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+    align-items: center;
 }
-#header-contents > div:last-child {
+
+#header-contents>div:last-child {
     display: none;
-  }
+}
 
 .admin {
     background-color: rgb(255, 153, 0);
@@ -476,9 +477,22 @@ footer {
 /*Responsive*/
 /* Small phones */
 @media (max-width: 321px) {
-    
-   
-  
+    #logo-name nav ul a {
+        font-size: 16px;
+    }
+
+    #hero-text p {
+        padding-top: 20px;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1rem;
+        /* 16px base */
+        line-height: 1.6;
+        /* comfortable line height */
+        color: #333;
+        /* dark gray for readability */
+        margin: 0 0 1.25rem;
+    }
+
     #hero {
         padding: 20px 10px;
     }
@@ -490,7 +504,6 @@ footer {
         align-items: center;
         height: auto;
         width: auto;
-        margin-top: 40px;
         background-color: white;
         border-radius: 15px;
     }
@@ -755,5 +768,776 @@ footer {
         display: flex;
         gap: 5px;
         overflow-x: auto;
+    }
+    #contacts{
+        padding: 10px;
+    }
+    
+    
+    #contacts-container {
+        margin: auto;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        gap: 20px;
+        padding: 20px;
+        font-family: "Outfit", sans-serif;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    .myname2 {
+        margin: 5px 0;
+    }
+    
+    
+    .myname-name {
+        font-size: 20px;
+        font-family: "Outfit", sans-serif;
+        font-style: regular;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .myname h2, .myname2 h2{
+        font-size: 15px;
+    }
+    .myname p, .myname2 p, .myname ul li{
+        font-size: 12px;
+    }
+    
+    .myname-name span {
+        color: rgb(255, 153, 0);
+        font-size: 20px;
+    }
+    .myname ul{
+        list-style: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    /* Collapse the nav-links */
+    #nav-names-links {
+        display: none;
+    }
+
+    /* Show your “menu” button */
+    #header-contents>div:last-child {
+        display: block;
+        cursor: pointer;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+
+    /* Optional: center the header items */
+    #header-contents {
+        justify-content: space-between;
+    }
+    #hero-button1,
+    #hero-button2 {
+        margin-top: 0px;
+    }
+    #logo-name nav ul a {
+        font-size: 16px;
+    }
+
+    #hero-text p {
+        padding-top: 20px;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1rem;
+        /* 16px base */
+        line-height: 1.6;
+        /* comfortable line height */
+        color: #333;
+        /* dark gray for readability */
+        margin: 0 0 1.25rem;
+    }
+
+    #hero {
+        padding: 20px 10px;
+    }
+
+    #hero-contents {
+        display: flex;
+        flex-direction: column-reverse;
+        /* image block comes first */
+        align-items: center;
+        height: auto;
+        width: auto;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    #hero-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 2;
+        /* Bring it to front */
+
+    }
+
+    #hero-text h1 {
+        font-size: 30px;
+    }
+
+    #hero-button1,
+    #hero-button2 {
+        padding: 6px 18px;
+        margin-top: 20px;
+        border: none;
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+        font-size: 12px;
+        font-family: "Outfit", sans-serif;
+        font-style: semi-bold;
+        font-weight: 600;
+    }
+
+    #hero-button2 {
+        border: 1px solid rgb(255, 153, 0);
+    }
+
+    #my-tools h2 {
+        font-weight: 700;
+        color: rgb(255, 153, 0);
+        font-size: 12px;
+    }
+
+    #tools ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        list-style: none;
+    }
+
+    #tools ul li {
+        background-color: rgb(5, 139, 0);
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        transition: 0.5s;
+    }
+
+    #tools ul a {
+        color: white;
+        font-family: "Outfit", sans-serif;
+        text-decoration: none;
+        font-size: 7px;
+        font-weight: 700;
+        margin: 1px;
+    }
+
+    #tools ul li:hover {
+        background-color: rgb(3, 95, 0);
+    }
+
+    #my-tools {
+        margin-top: 30px;
+        font-family: "Outfit", sans-serif;
+    }
+
+    /*services*/
+    #services-image {
+        position: relative;
+        /* Add position to control z-index if needed */
+        z-index: 1;
+        width: auto;
+    }
+
+    #services-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #services-text button {
+        height: auto;
+        width: auto;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(255, 153, 0);
+        color: white;
+        font-size: 12px;
+        font-family: "Outfit", sans-serif;
+        font-style: semi-bold;
+        font-weight: 600;
+        padding: 6px 18px;
+        margin-bottom: 20px;
+    }
+
+    #services-text h1 {
+        font-size: 30px;
+        font-family: "Outfit", sans-serif;
+        font-style: regular;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    #services-cont {
+        width: auto;
+    }
+
+    #my-services-contents {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        gap: 00px;
+        padding: 20px;
+    }
+
+    #services-box1 {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: cenetr;
+        border: 2px solid rgb(255, 153, 0);
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 5px;
+    }
+
+    #services-box1 h1 {
+        margin: auto;
+        font-size: 20px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 750;
+    }
+
+    #services-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    /*reach*/
+    #reach-container {
+        width: auto;
+        height: auto;
+        margin: auto;
+        gap: 0px;
+    }
+
+    #reach-text {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #reach-image {
+        display: none;
+    }
+
+    #reach-text button {
+        height: auto;
+        width: auto;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(255, 153, 0);
+        color: white;
+        font-size: 12px;
+        font-family: "Outfit", sans-serif;
+        font-style: semi-bold;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    #reach-text h1 {
+        font-size: 30px;
+        font-family: "Outfit", sans-serif;
+        font-style: regular;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    #reach-text h1 span {
+        color: rgb(255, 153, 0);
+        font-size: 50px;
+    }
+
+    #testimonial-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        gap: 0px;
+        font-family: "Outfit", sans-serif;
+        font-style: regular;
+        font-weight: 1;
+    }
+
+    #testimonial-container h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #testimonial-container button {
+        height: auto;
+        width: auto;
+        padding: 6px 18px;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+
+    #testimonial-boxes {
+        min-width: 200px;
+        height: auto;
+        display: flex;
+        border-radius: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 5px;
+    }
+
+    #testimonial-boxes h2 {
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    .name {
+        margin-top: 20px;
+    }
+
+    #testimonial-boxes p {
+        font-size: 10px;
+    }
+
+    .testimonial-boxes-icon {
+        font-size: 20px;
+        color: rgb(255, 153, 0);
+    }
+
+    #testimonial-boxes img {
+        width: 50px;
+    }
+
+    #testimonial-boxes-container {
+        padding: 20px;
+        height: auto;
+        width: auto;
+        display: flex;
+        gap: 5px;
+        overflow-x: auto;
+    }
+    #contacts{
+        padding: 10px;
+    }
+    
+    
+    #contacts-container {
+        margin: auto;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        gap: 20px;
+        padding: 20px;
+        font-family: "Outfit", sans-serif;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    .myname2 {
+        margin: 5px 0;
+    }
+    
+    
+    .myname-name {
+        font-size: 20px;
+        font-family: "Outfit", sans-serif;
+        font-style: regular;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .myname h2, .myname2 h2{
+        font-size: 15px;
+    }
+    .myname p, .myname2 p, .myname ul li{
+        font-size: 12px;
+    }
+    
+    .myname-name span {
+        color: rgb(255, 153, 0);
+        font-size: 20px;
+    }
+    .myname ul{
+        list-style: none;
+    }
+}
+@media (max-width: 900px) {
+
+    /* Collapse the nav-links */
+    #nav-names-links {
+        display: none;
+    }
+
+    /* Show your “menu” button */
+    #header-contents>div:last-child {
+        display: block;
+        cursor: pointer;
+        font-weight: bold;
+        padding-right: 10px;
+    }
+
+    /* Optional: center the header items */
+    #header-contents {
+        justify-content: space-between;
+    }
+    #hero-button1,
+    #hero-button2 {
+        margin-top: 0px;
+    }
+    #logo-name nav ul a {
+        font-size: 16px;
+    }
+
+    #hero-text p {
+        padding-top: 20px;
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1rem;
+        /* 16px base */
+        line-height: 1.6;
+        /* comfortable line height */
+        color: #333;
+        /* dark gray for readability */
+        margin: 0 0 1.25rem;
+    }
+
+    #hero {
+        padding: 20px 10px;
+    }
+
+    #hero-contents {
+        display: flex;
+        flex-direction: column-reverse;
+        /* image block comes first */
+        align-items: center;
+        height: auto;
+        width: auto;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    #hero-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 2;
+        /* Bring it to front */
+
+    }
+
+    #hero-text h1 {
+        font-size: 30px;
+    }
+
+    #hero-button1,
+    #hero-button2 {
+        padding: 6px 18px;
+        margin-top: 20px;
+        border: none;
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+        font-size: 12px;
+        font-family: "Outfit", sans-serif;
+        font-style: semi-bold;
+        font-weight: 600;
+    }
+
+    #hero-button2 {
+        border: 1px solid rgb(255, 153, 0);
+    }
+
+    #my-tools h2 {
+        font-weight: 700;
+        color: rgb(255, 153, 0);
+        font-size: 12px;
+    }
+
+    #tools ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2px;
+        list-style: none;
+    }
+
+    #tools ul li {
+        background-color: rgb(5, 139, 0);
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        transition: 0.5s;
+    }
+
+    #tools ul a {
+        color: white;
+        font-family: "Outfit", sans-serif;
+        text-decoration: none;
+        font-size: 7px;
+        font-weight: 700;
+        margin: 1px;
+    }
+
+    #tools ul li:hover {
+        background-color: rgb(3, 95, 0);
+    }
+
+    #my-tools {
+        margin-top: 30px;
+        font-family: "Outfit", sans-serif;
+    }
+
+    /*services*/
+    #services-image {
+        position: relative;
+        /* Add position to control z-index if needed */
+        z-index: 1;
+        width: auto;
+    }
+
+    #services-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    #services-text button {
+        height: auto;
+        width: auto;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(255, 153, 0);
+        color: white;
+        font-size: 12px;
+        font-family: "Outfit", sans-serif;
+        font-style: semi-bold;
+        font-weight: 600;
+        padding: 6px 18px;
+        margin-bottom: 20px;
+    }
+
+    #services-text h1 {
+        font-size: 30px;
+        font-family: "Outfit", sans-serif;
+        font-style: regular;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    #services-cont {
+        width: auto;
+    }
+
+    #my-services-contents {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        gap: 00px;
+        padding: 20px;
+    }
+
+    #services-box1 {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: cenetr;
+        border: 2px solid rgb(255, 153, 0);
+        border-radius: 5px;
+        overflow: hidden;
+        padding: 5px;
+    }
+
+    #services-box1 h1 {
+        margin: auto;
+        font-size: 20px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 750;
+    }
+
+    #services-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    /*reach*/
+    #reach-container {
+        width: auto;
+        height: auto;
+        margin: auto;
+        gap: 0px;
+    }
+
+    #reach-text {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #reach-image {
+        display: none;
+    }
+
+    #reach-text button {
+        height: auto;
+        width: auto;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(255, 153, 0);
+        color: white;
+        font-size: 12px;
+        font-family: "Outfit", sans-serif;
+        font-style: semi-bold;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    #reach-text h1 {
+        font-size: 30px;
+        font-family: "Outfit", sans-serif;
+        font-style: regular;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    #reach-text h1 span {
+        color: rgb(255, 153, 0);
+        font-size: 50px;
+    }
+
+    #testimonial-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        gap: 0px;
+        font-family: "Outfit", sans-serif;
+        font-style: regular;
+        font-weight: 1;
+    }
+
+    #testimonial-container h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    #testimonial-container button {
+        height: auto;
+        width: auto;
+        padding: 6px 18px;
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: 600;
+        margin-bottom: 0px;
+    }
+
+    #testimonial-boxes {
+        min-width: 200px;
+        height: auto;
+        display: flex;
+        border-radius: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 5px;
+    }
+
+    #testimonial-boxes h2 {
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    .name {
+        margin-top: 20px;
+    }
+
+    #testimonial-boxes p {
+        font-size: 10px;
+    }
+
+    .testimonial-boxes-icon {
+        font-size: 20px;
+        color: rgb(255, 153, 0);
+    }
+
+    #testimonial-boxes img {
+        width: 50px;
+    }
+
+    #testimonial-boxes-container {
+        padding: 20px;
+        height: auto;
+        width: auto;
+        display: flex;
+        gap: 5px;
+        overflow-x: auto;
+    }
+    #contacts{
+        padding: 10px;
+    }
+    
+    
+    #contacts-container {
+        margin: auto;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        gap: 20px;
+        padding: 20px;
+        font-family: "Outfit", sans-serif;
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    .myname2 {
+        margin: 5px 0;
+    }
+    
+    
+    .myname-name {
+        font-size: 20px;
+        font-family: "Outfit", sans-serif;
+        font-style: regular;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .myname h2, .myname2 h2{
+        font-size: 15px;
+    }
+    .myname p, .myname2 p, .myname ul li{
+        font-size: 12px;
+    }
+    
+    .myname-name span {
+        color: rgb(255, 153, 0);
+        font-size: 20px;
+    }
+    .myname ul{
+        list-style: none;
     }
 }
