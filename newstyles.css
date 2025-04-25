@@ -160,6 +160,8 @@ header {
 
 #hero-button2 {
     border: 3px solid rgb(255, 153, 0);
+    background-color: transparent;
+    color: rgb(255, 153, 0);
 }
 
 #my-tools {
@@ -541,19 +543,7 @@ footer {
         font-size: 30px;
     }
 
-    #hero-button1,
-    #hero-button2 {
-        padding: 6px 18px;
-        margin-top: 20px;
-        border: none;
-        width: auto;
-        height: auto;
-        border-radius: 5px;
-        font-size: 12px;
-        font-family: "Outfit", sans-serif;
-        font-style: semi-bold;
-        font-weight: 600;
-    }
+
 
     #hero-button2 {
         border: 1px solid rgb(255, 153, 0);
@@ -842,21 +832,29 @@ footer {
     .myname ul {
         list-style: none;
     }
-    #hero-button1,
-    #hero-button2 {
-        margin-top: 0px;
-    }
-    
+
+
 }
 
 @media (max-width: 760px) {
 
-    
+    #hero-button1,
+    #hero-button2 {
+        padding: 6px 18px;
+        border: none;
+        width: auto;
+        height: auto;
+        border-radius: 5px;
+        font-size: 18px;
+        font-family: "Outfit", sans-serif;
+        font-style: semi-bold;
+        font-weight: 600;
+    }
+
     #buttons {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        gap: 0px;
     }
 
     .mobileimage {
@@ -923,6 +921,7 @@ footer {
     #hero-button1,
     #hero-button2 {
         margin-top: 0px;
+        width: 100%;
     }
 
     #logo-name nav ul a {
@@ -970,19 +969,7 @@ footer {
         text-align: center;
     }
 
-    #hero-button1,
-    #hero-button2 {
-        padding: 6px 18px;
-        margin-top: 20px;
-        border: none;
-        width: auto;
-        height: auto;
-        border-radius: 5px;
-        font-size: 12px;
-        font-family: "Outfit", sans-serif;
-        font-style: semi-bold;
-        font-weight: 600;
-    }
+
 
     #hero-button2 {
         border: 1px solid rgb(255, 153, 0);
