@@ -80,7 +80,8 @@ header {
     overflow: hidden;
     background: radial-gradient(circle at 80% 30%, #004400 0%, #000000 70%);
 }
-#hero-text p{
+
+#hero-text p {
     color: white;
     max-width: 700px;
 }
@@ -146,6 +147,7 @@ header {
     font-style: semi-bold;
     font-weight: 600;
 }
+
 #buttons {
     display: flex;
     gap: 10px;
@@ -482,7 +484,8 @@ footer {
     font-family: "Outfit", sans-serif;
     font-style: regular;
 }
-.mobileimage{
+
+.mobileimage {
     display: none;
 }
 
@@ -490,7 +493,11 @@ footer {
 /*Responsive*/
 /* Small phones */
 @media (max-width: 321px) {
-    
+    #hero-image img {
+        width: 50px;
+        margin-bottom: 30px;
+    }
+
     #logo-name nav ul a {
         font-size: 16px;
     }
@@ -499,13 +506,13 @@ footer {
         padding-top: 20px;
         font-family: 'Helvetica Neue', Arial, sans-serif;
         font-size: 1rem;
-        
         /* 16px base */
         line-height: 1.6;
         /* comfortable line height */
-        color: #333;
+        color: #ffffff;
         /* dark gray for readability */
         margin: 0 0 1.25rem;
+        text-align: center;
     }
 
     #hero {
@@ -519,8 +526,6 @@ footer {
         align-items: center;
         height: auto;
         width: auto;
-        background-color: white;
-        border-radius: 15px;
     }
 
     #hero-text {
@@ -837,19 +842,36 @@ footer {
     .myname ul {
         list-style: none;
     }
+    #hero-button1,
+    #hero-button2 {
+        margin-top: 0px;
+    }
+    
 }
 
 @media (max-width: 760px) {
-    .mobileimage{
+
+    
+    #buttons {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .mobileimage {
         display: block;
     }
-    .bigimage{
+
+    .bigimage {
         display: none;
     }
-    #hero-image img{
-        width: 300px;
+
+    #hero-image img {
+        width: 200px;
         margin-bottom: 30px;
     }
+
     /* Collapse the nav-links */
     #nav-names-links {
         display: none;
@@ -914,9 +936,10 @@ footer {
         /* 16px base */
         line-height: 1.6;
         /* comfortable line height */
-        color: #333;
+        color: #ffffff;
         /* dark gray for readability */
         margin: 0 0 1.25rem;
+        text-align: center;
     }
 
     #hero {
@@ -942,7 +965,9 @@ footer {
     }
 
     #hero-text h1 {
-        font-size: 30px;
+        font-size: 250%;
+        max-width: 600px;
+        text-align: center;
     }
 
     #hero-button1,
