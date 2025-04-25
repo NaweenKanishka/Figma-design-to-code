@@ -82,6 +82,7 @@ header {
 }
 #hero-text p{
     color: white;
+    max-width: 700px;
 }
 
 #hero-contents {
@@ -107,6 +108,7 @@ header {
     flex-direction: column;
     justify-content: center;
     z-index: 2;
+    gap: 15px;
     /* Bring it to front */
 
 }
@@ -135,7 +137,6 @@ header {
 #hero-button1,
 #hero-button2 {
     padding: 6px 18px;
-    margin-top: 20px;
     border: none;
     width: 216px;
     height: 59px;
@@ -144,6 +145,10 @@ header {
     font-family: "Outfit", sans-serif;
     font-style: semi-bold;
     font-weight: 600;
+}
+#buttons {
+    display: flex;
+    gap: 10px;
 }
 
 #hero-button1 {
