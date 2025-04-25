@@ -398,6 +398,17 @@ header {
     font-style: semi-bold;
     font-weight: 600;
 }
+#testimonial-boxes p{
+    padding-top: 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1rem;
+    /* 16px base */
+    line-height: 1.6;
+    /* comfortable line height */
+    color: #240000;
+    /* dark gray for readability */
+    margin: 0 0 1.25rem;
+}
 
 #testimonial-container h1 {
     font-size: 64px;
@@ -422,14 +433,14 @@ header {
 
 #testimonial-boxes {
     width: 610px;
-    height: 421px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: 3px solid rgb(255, 153, 0);
     border-radius: 33px;
-    padding: 0 70px;
+    padding: 20px 70px;
 }
 
 .testimonial-boxes-icon {
