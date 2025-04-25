@@ -171,7 +171,7 @@ header {
 
 #my-tools h2 {
     font-weight: 700;
-    color: rgb(255, 153, 0);
+    color: rgb(255, 255, 255);
 }
 
 #tools ul {
@@ -194,9 +194,9 @@ header {
     color: white;
     font-family: "Outfit", sans-serif;
     text-decoration: none;
-    font-size: 18px;
     font-weight: 700;
     margin: 10px 0;
+    font-size: 18px;
 }
 
 #tools ul li:hover {
@@ -551,7 +551,6 @@ footer {
 
     #my-tools h2 {
         font-weight: 700;
-        color: rgb(255, 153, 0);
         font-size: 12px;
     }
 
@@ -574,9 +573,9 @@ footer {
         color: white;
         font-family: "Outfit", sans-serif;
         text-decoration: none;
-        font-size: 7px;
         font-weight: 700;
         margin: 1px;
+        font-size: 10px;
     }
 
     #tools ul li:hover {
@@ -977,7 +976,6 @@ footer {
 
     #my-tools h2 {
         font-weight: 700;
-        color: rgb(255, 153, 0);
         font-size: 12px;
     }
 
@@ -1000,9 +998,9 @@ footer {
         color: white;
         font-family: "Outfit", sans-serif;
         text-decoration: none;
-        font-size: 7px;
         font-weight: 700;
         margin: 1px;
+        font-size: 10px;
     }
 
     #tools ul li:hover {
