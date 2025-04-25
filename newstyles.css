@@ -207,9 +207,7 @@ header {
 }
 
 /*services section*/
-#my-services{
-    background: radial-gradient(circle at 10% 30%, #440000 0%, #000000 70%);
-}
+
 #my-services-contents {
     max-width: 1440px;
     height: 1024px;
@@ -260,20 +258,24 @@ header {
     font-style: regular;
     font-weight: 700;
     margin-bottom: 20px;
-    color: white;
 }
 
 #services-text p {
-    margin-bottom: 20px;
-    color: white;
+    padding-top: 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1rem;
+    /* 16px base */
+    line-height: 1.6;
+    /* comfortable line height */
+    color: #240000;
+    /* dark gray for readability */
+    margin: 0 0 1.25rem;
 }
 
 #services-text span {
     color: rgb(255, 153, 0);
 }
-#services-boxes h1{
-    color: white;
-}
+
 #services-boxes {
     display: flex;
     flex-wrap: wrap;
@@ -318,7 +320,17 @@ header {
     gap: 50px;
     padding: 20px;
 }
-
+#reach-text p{
+    padding-top: 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1rem;
+    /* 16px base */
+    line-height: 1.6;
+    /* comfortable line height */
+    color: #ffffff;
+    /* dark gray for readability */
+    margin: 0 0 1.25rem;
+}
 #reach-text {
     margin: auto;
     display: flex;
@@ -369,9 +381,7 @@ header {
 }
 
 /*testimonial section*/
-#testimonials{
-    background: radial-gradient(circle at 80% 30%, #004400 0%, #000000 70%);
-}
+
 #testimonial-container {
     max-width: 1440px;
     height: 1024px;
@@ -420,7 +430,6 @@ header {
     border: 3px solid rgb(255, 153, 0);
     border-radius: 33px;
     padding: 0 70px;
-    color: white;
 }
 
 .testimonial-boxes-icon {
@@ -517,7 +526,7 @@ footer {
 
     #logo-name nav ul a {
         font-size: 16px;
-        
+
     }
 
     #hero-text p {
@@ -737,12 +746,6 @@ footer {
         font-weight: 1;
     }
 
-    #testimonial-container h1 {
-        font-size: 30px;
-        margin-bottom: 10px;
-        margin-top: 10px;
-    }
-
     #testimonial-container button {
         height: auto;
         width: auto;
@@ -900,6 +903,25 @@ footer {
         width: 100%;
         background: white;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+    #services-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 2;
+        /* Bring it to front */
+    }
+    #services-text h1{
+        text-align: center;
+    }
+    #services-text p {
+        text-align: center;
+    }
+    #reach-text h1{
+        text-align: center;
+    }
+    #reach-text p{
+        text-align: center;
     }
 
     /* Style the nav inside the dropdown */
