@@ -8,7 +8,7 @@ header {
     position: fixed;
     overflow: hidden;
     width: 100%;
-    background-color: rgb(27, 27, 27);
+    background: radial-gradient(circle at 20% 10%, #004400 0%, #000000 60%);
     z-index: 9999;
     top: 0;
 }
@@ -51,6 +51,7 @@ header {
 
 #nav-names-links a {
     font-size: 15px;
+    color: white;
 }
 
 #nav-names-links ul {
@@ -473,6 +474,9 @@ footer {
     font-family: "Outfit", sans-serif;
     font-style: regular;
 }
+.mobileimage{
+    display: none;
+}
 
 
 /*Responsive*/
@@ -827,17 +831,15 @@ footer {
 }
 
 @media (max-width: 760px) {
-    #hero-image{
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        object-fit: cover;
+    .mobileimage{
+        display: block;
+    }
+    .bigimage{
+        display: none;
     }
     #hero-image img{
-        width: 100%;
-        height: 100%;
-        border-radius: 50%;
-        object-fit: cover;
+        width: 300px;
+        margin-bottom: 30px;
     }
     /* Collapse the nav-links */
     #nav-names-links {
