@@ -477,6 +477,7 @@ footer {
 /*Responsive*/
 /* Small phones */
 @media (max-width: 321px) {
+    
     #logo-name nav ul a {
         font-size: 16px;
     }
@@ -825,6 +826,7 @@ footer {
 }
 
 @media (max-width: 760px) {
+ 
 
     /* Collapse the nav-links */
     #nav-names-links {
@@ -871,6 +873,7 @@ footer {
     #header-contents {
         justify-content: space-between;
         height: auto;
+        padding: 0 20px;
     }
 
     #hero-button1,
