@@ -221,7 +221,7 @@ header {
 }
 
 #services-cont {
-    width: 50%;
+    width: 100%;
 }
 
 #services-image {
@@ -274,6 +274,8 @@ header {
 
 #services-text span {
     color: rgb(255, 153, 0);
+    font-weight: 300;
+    font-style: italic;
 }
 
 #services-boxes {
@@ -283,25 +285,58 @@ header {
 }
 
 #services-box1 {
-    width: 295px;
-    height: 178px;
+    width: 400px;
+    min-height: 300px;
+    /* optional for better balance */
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    align-items: cenetr;
-    border: 3px solid rgb(255, 153, 0);
-    border-radius: 8px;
+    border: 3px solid #ff9900;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #fff8f0, #ffffff);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    padding: 30px 20px;
+    transition: all 0.4s ease;
 }
 
-#services-box1 h1 {
-    margin: auto;
+#services-box1:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    border-color: #ffaa33;
+}
+
+#services-box1 img {
+    width: 150px;
+}
+
+#services-box1 p {
+    font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    padding: 15px;
+    transition: all 0.3s ease;
+    margin: 0;
+    padding: 10px 0;
+}
+
+#services-box1 a {
+    width: 100%;
+    padding: 8px 0;
+    text-decoration: none;
+}
+
+#services-box1 a:hover {
+    color: green;
+}
+
+#services-box1 h2 {
     font-size: 40px;
     font-family: "Outfit", sans-serif;
     font-weight: 750;
-}
-
-#services-box1 h1 span {
-    color: rgb(255, 153, 0);
 }
 
 /*reach section*/
@@ -320,7 +355,8 @@ header {
     gap: 50px;
     padding: 20px;
 }
-#reach-text p{
+
+#reach-text p {
     padding-top: 20px;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 1rem;
@@ -331,6 +367,7 @@ header {
     /* dark gray for readability */
     margin: 0 0 1.25rem;
 }
+
 #reach-text {
     margin: auto;
     display: flex;
@@ -398,7 +435,8 @@ header {
     font-style: semi-bold;
     font-weight: 600;
 }
-#testimonial-boxes p{
+
+#testimonial-boxes p {
     padding-top: 20px;
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 1rem;
@@ -915,6 +953,7 @@ footer {
         background: white;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     }
+
     #services-text {
         display: flex;
         flex-direction: column;
@@ -922,16 +961,20 @@ footer {
         z-index: 2;
         /* Bring it to front */
     }
-    #services-text h1{
+
+    #services-text h1 {
         text-align: center;
     }
+
     #services-text p {
         text-align: center;
     }
-    #reach-text h1{
+
+    #reach-text h1 {
         text-align: center;
     }
-    #reach-text p{
+
+    #reach-text p {
         text-align: center;
     }
 
