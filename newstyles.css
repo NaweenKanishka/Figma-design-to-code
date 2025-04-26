@@ -280,12 +280,12 @@ header {
 
 #services-boxes {
     display: flex;
-    flex-wrap: wrap;
+    flex-grow: 1;
     gap: 20px;
 }
 
 #services-box1 {
-    width: 400px;
+    width: auto;
     min-height: 300px;
     /* optional for better balance */
     display: flex;
@@ -715,7 +715,7 @@ footer {
     }
 
     #services-box1 {
-        width: auto;
+        width: 100%;
         height: auto;
         display: flex;
         justify-content: center;
