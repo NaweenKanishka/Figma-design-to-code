@@ -651,8 +651,10 @@ footer {
     max-width: 1440px;
     margin: auto;
     display: flex;
-    padding: 20px;
+    flex-direction: column;
+    padding: 50px 20px;
     overflow-x: auto;
+    justify-content: center;
     /* Enables horizontal scrolling */
 }
 
@@ -665,9 +667,9 @@ footer {
 #card-blog-text h2 {
     font-family: "Outfit", sans-serif;
     font-style: regular;
-    font-weight: 700;
     margin-bottom: 5px;
     background-color: green;
+    color: white;
     width: 40%;
     padding: 5px;
     border-radius: 5px;
