@@ -1,6 +1,6 @@
 # Figma-design-to-code
 
-#Hero content in my nkanishka.lk
+# Hero content in my nkanishka.lk
 ![image](https://github.com/user-attachments/assets/4f580c14-adb8-4e98-8f6b-ed754cd64ec4)
 
 # Service provided section
